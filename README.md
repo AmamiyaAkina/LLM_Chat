@@ -2,9 +2,16 @@
 基于[HoshinoBot](https://github.com/Ice9Coffee/HoshinoBot)构建的接入大模型聊天的插件，大模型运行平台基于[LM Studio](https://lmstudio.ai/)构建，不确定是否适用于其他平台（如Ollama）
 
 ---
+## 部署
+在`modules`目录下克隆本仓库项目：
+```
+git clone https://github.com/AmamiyaAkina/LLM_Chat.git
+```
+并在`__bot__.py`的`module`中添加`LLM_Chat`
+
+---
 ## 快速开始
-- 在`main.py`中的`CONFIG`配置你的`BASE_URL`与`MODEL`
-- 配置你的`System Prompt` 
+在`main.py`中的`CONFIG`配置你的`BASE_URL`与`MODEL`，并配置你的`System Prompt` 
 
 ```
 # Example
@@ -44,6 +51,7 @@ await bot.send(ev, "思考中...")
 ```
 
 ## 未来与展望
+未来一些想加的功能，大概取决于我什么时候愿意去写吧
 - 更新API Key功能调用LLM
 - 加入工具调用函数
 - 让机器人能自发随机在群聊中触发聊天，并将语言像真人一样拆分分段输出
