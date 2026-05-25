@@ -101,7 +101,7 @@ async def chat(bot, ev):
         sessions[session_id] = history[-max_len:]
         history = sessions[session_id]
 
-    # await bot.send(ev, "思考中...") 不输出思考反应
+    # await bot.send(ev, "思考中...")
 
     # ===== 调用 LLM =====
     try:
