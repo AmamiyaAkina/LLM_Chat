@@ -10,8 +10,8 @@ sv = Service('llm_chat', enable_on_default=True)
 
 # ====== 配置 ======
 CONFIG = {
-    "BASE_URL": "http://macbook:1234",
-    "MODEL": "qwen3-vl-8b",
+    "BASE_URL": "",
+    "MODEL": "",
     "MAX_HISTORY": 10,
     "REQUEST_TIMEOUT": 60
 }
