@@ -34,6 +34,11 @@ SYSTEM_PROMPT =  """
   <img width="920" height="464" alt="图片" src="https://github.com/user-attachments/assets/c4bb16a7-a6b8-4bcf-a3d7-513705cae31e" />
 </p>
 
+插件已内置图片输入，在上述内容后方贴入图片，即可让支持视觉模型的LLM识别图片内容
+<p align="center">
+  <img width="1208" height="1146" alt="图片" src="https://github.com/user-attachments/assets/aad85858-6c97-46ba-bbe5-3812707e238a" />
+</p>
+
 ---
 ## debugging
 at机器人输入`debug`，以快速查看调试信息（如加载的模型、服务器URL、最近对话、对话长度等）
